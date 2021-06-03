@@ -1,4 +1,4 @@
-# my-udonsharp-scripts
+# Collection of scripts I've coded for my VRChat worlds.
 
 There's a lot of weird stuff since I only had basic knowledge in C# when started, as well as writing for udon has some quirks (like you can't use classes).
 
