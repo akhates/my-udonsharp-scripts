@@ -13,10 +13,10 @@ public class CarcassonneTileSnap : UdonSharpBehaviour
     {
         Vector3 pos = gameObject.transform.position;
 		
-		// making so tile snaps only ay integer cord
+		// making so tile snaps only at integer value
         gameObject.transform.position = new Vector3(Mathf.Round(pos.x),0,Mathf.Round(pos.z));
 		
-		// adjusting rotation so tiles stay at being multiples of 90
+		// adjusting rotation so tile's rotation stays at being multiple of 90
         gameObject.transform.rotation = Quaternion.Euler(0, adjustRotation(), 0);
 		
 		// making so taking it away from zone will respawn tile at center
@@ -49,7 +49,7 @@ public class CarcassonneTileSnap : UdonSharpBehaviour
         }
         else
         {
-			// this shouldn't happen, right?
+	    // this shouldn't happen, right?
             Debug.Log("thanks udon");
             return 0;
         }
