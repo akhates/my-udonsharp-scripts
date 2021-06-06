@@ -6,3 +6,4 @@ You will need to grab latest [UdonSharp](http://github.com/MerlinVR/UdonSharp/re
 
 - [SUPERFIGHT](https://vrchat.com/home/world/wrld_21d7cc7a-75df-4752-8199-2bfd678a9a7c)
 - [CARCASSONNE](https://vrchat.com/home/world/wrld_72fec55c-75a6-4f07-ad9e-b2d02531de8a)
+- Mansions of Madness (WIP)
